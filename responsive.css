@@ -1,0 +1,449 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("gelbooru.com") {
+  body {
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+	background-color:#000;
+	font-family: verdana, sans-serif, helvetica;
+	
+}
+
+div#static-index > * > a {
+	color: #006FFA !important;
+}
+
+div#static-index > * > a:hover {
+	color: #7B7C7C !important;
+}
+
+div#static-index > * > input.search_list {
+	width: 400px !important;
+}
+
+div#static-index > * > input.secondary_search {
+	width: 100px !important;
+	border-radius: 4px;
+}
+
+
+div#static-index > h1 {
+	display: inline !important;
+}
+
+div#static-index {
+  	text-align: center;
+}
+
+div#static-index > div#links > a {
+	font-family: tahoma, verndana, sans-serif;
+	font-size: 12px;
+  	margin: 0px 5px;
+}
+
+.navbar {
+	border: 0 !important;
+	margin-bottom: 0px !important;
+	background: linear-gradient(#3E3E3F, #1B1B1B); //change
+	
+}
+
+.padding15 {
+	padding: 0px 15px 0px 15px;
+}
+
+.navbar-brand {
+	padding: 15px 15px !important;
+	background: url("https://gelbooru.com/layout/gcomLogo.png") center no-repeat;
+	background-size: 40px 40px;
+	height: 50px;
+	min-width: 60px;
+	margin-left: 15px;
+}
+
+#submenu {
+	background: #444 !important;
+	padding-left: 25px;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.navbar-header > button {
+	margin-right: 10px;
+}
+
+#submenu > button {
+	margin-right: 10px;
+}
+
+.navbar-header > button:hover, .navbar-header > button:focus {
+	background: #464646 !important; 
+	
+}
+
+.navbar-header > button:active {
+	background: transparent !important;
+}
+
+span.additional-search {
+	float: right; 
+	margin-top: 4px;
+}
+
+.secondary_search {
+	margin-top: 3px;
+	color: #fff;
+	font-weight: bold;
+	width: 180px;
+	border: 1px;
+	border-color:626262;
+
+	padding: 5px;
+	background: #000;
+}
+
+.secondary_search:hover {
+	width: 180px;
+	border: 0px;
+	background: #353535; //change
+}
+
+input.search_list {
+	width: calc(100% - 25px);
+	border: 1px solid #e0e0e0;
+	margin-bottom: 2px;
+	padding: 4px 5px 4px 5px;
+}
+
+.contain-push {
+	margin-left: 220px;
+}
+
+ul#tag-list {
+	position: absolute;
+	padding: 0px 10px 0px 10px;
+	margin: 0px;
+	width: 200px;
+	word-wrap: break-word;
+	border-right: 1px solid #f0f0f0;
+}
+
+ul#tag-list li {
+  	display: block;
+  	list-style-type: none;
+	line-height: 2.5em;
+}
+
+.thumbnail-preview
+{
+	display: inline-block; 
+	background: #000;
+	word-wrap: break-word;
+	margin: 0px 10px 20px 10px; 
+	max-height: 200px;
+	max-width: 200px;
+	border: 1px solid #626262; 
+	padding: 5px;
+}
+
+div.thumbnail-placeholder {
+	height: 200px; 
+	width: 200px;
+}
+
+span.blacklisted-image {
+
+}
+span.thumb-space {
+  	display: inline-block;
+}
+
+.blacklisted {
+	opacity: .2;
+	filter: blur(10px);
+}
+
+.flagged {
+  	border: 5px solid #F00 !important;
+	margin: -5px !important;
+}
+
+.webm {
+  	border: 5px solid #0000ff !important;
+	margin: -5px !important;
+}
+
+
+.tag-type-artist > a,
+a.tag-type-artist {
+  	color: #A00;
+}
+
+.tag-type-artist > a:hover {
+  	color: #9093FF;
+}
+
+.tag-type-character > a {
+  	color: #0A0;
+}
+
+.tag-type-character > a:hover {
+  	color: #9093FF;
+}
+
+.tag-type-copyright > a {
+  	color: #A0A;
+}
+
+.tag-type-copyright > a:hover {
+  	color: #9093FF;
+}
+
+
+/*Pagination begins here*/
+
+div#paginator {
+  	display: block;
+  	padding: 0;
+  	font-size: 12px;
+  	text-align: center;
+  	font-weight: bold;
+  	clear: both;
+}
+
+div#paginator a {
+  	margin: 0 3px;
+  	padding: 8px 12px;
+  	font-weight: normal;
+  	border: 1px solid #EAEAEA;
+}
+
+div#paginator a.arrow {
+  	border: none;
+}
+
+div#paginator a.arrow:hover {
+  	background: white;
+  	color: #9093FF;
+}
+
+div#paginator a.current {
+  	border: 1px solid #AAA;
+}
+
+div#paginator a:hover {
+  	background: #006ffa;
+	color: #fff;
+}
+
+div#paginator span {
+  	margin: 0 3px;
+  	padding: 2px 6px;
+}
+
+div#paginater {
+  	display: inline-block;
+  	padding: 0;
+  	font-size: 12px;
+  	text-align: center;
+  	font-weight: bold;
+  	clear: both;
+}
+
+div#paginater a {
+  	margin: 0 3px;
+  	padding: 8px 12px;
+  	font-weight: normal;
+  	border: 1px solid #EAEAEA;
+}
+
+div#paginater a.arrow {
+  	border: none;
+}
+
+div#paginater a.arrow:hover {
+  	background: white;
+  	color: #9093FF;
+}
+
+div#paginater a.current {
+  	border: 1px solid #AAA;
+}
+
+div#paginater a:hover {
+  	background: #006ffa;
+	color: #fff;
+}
+
+div#paginater span {
+  	margin: 0 3px;
+  	padding: 2px 6px;
+}
+
+/* 
+	Post notes
+*/
+
+
+
+div#post-view > div#right-col > div > div#note-container {
+  	position: relative;
+
+}
+
+div#post-view > div#right-col > div > div#note-container > div.note-body {
+  	background: #FFE;
+  	border: 1px solid black;
+  	display: none;	
+	z-index: 50;
+  	max-width: 300px;
+  	min-width: 140px;
+  	min-height: 10px;
+  	position: absolute;
+  	padding: 5px;
+  	cursor: pointer;
+  	overflow: auto;
+}
+
+div#post-view > div#right-col > div > div#note-container > div.note-body > p.tn {
+  	font-size: 0.8em;
+  	color: gray;
+}
+tn {
+  	font-size: 0.8em;
+  	color: gray;
+}
+
+div#post-view > div#right-col > div > div#note-container > div.note-box {
+  	position: absolute;
+  	border: 1px solid black;
+  	width: 150px;
+  	height: 150px;
+  	cursor: move;
+  	background: transparent;
+}
+
+div#post-view > div#right-col > div > div#note-container > div.note-box > div.note-corner {
+  	background: black;
+  	width: 7px;
+  	height: 7px;
+  	position: absolute;
+  	bottom: 0;
+  	right: 0;
+  	cursor: se-resize;
+}
+
+div.note-box-inner-border {
+      border: 1px solid #ff0;
+      background: #FFE;
+ }
+
+div#post-view > div#right-col > div > div#note-container > div.unsaved {
+  	background: #FFF;
+  	border: 1px solid red;
+}
+
+div#post-view > div#right-col > div > div#note-container > div.unsaved > div.note-corner {
+  	background: red;
+}
+
+div#post-view > div#right-col > div > img {
+  	margin-right: 15px;
+}
+
+div#post-view > div#right-col > div#edit {
+  	margin-bottom: 2em;
+  	padding: 1em;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1024px) {
+}
+
+@media only screen and (max-width:767px) {
+
+.navbar-brand {
+	background: none !important;
+	min-width: 60px;
+	margin-left: 15px;
+	font-size: 2em !important;
+	font-weight: bold;
+	font-family: tahoma, verdana, sans-serif;
+}
+
+.thumbnail-preview
+{
+	max-height: 120px !important;
+	max-width: 120px !important;
+
+}
+
+.thumbnail-preview img {
+	max-height: 100px;
+	max-width: 100px;
+}
+
+.contain-push {
+	margin-left: 0px;
+}
+
+.secondary_search {
+	width: 100%;
+	border: 0px;
+}
+
+.secondary_search:hover {
+	width: 100% !important;
+	border: 0px;
+}
+
+input.search_list {
+	padding: 3px 5px 3px 5px !important;
+}
+
+.alert {
+	float: left !important;
+	width: 100% !important;
+	
+}
+ul#tag-list {
+	position: relative !important;
+	float: left !important;
+	padding: 0px 10px 0px 10px;
+	margin: 0px;
+	width: 100% !important;
+	border-right: 1px solid #353535;
+}
+
+ul#tag-list li {
+	display: block !important;
+	margin-right: 25px;
+	margin-bottom: 15px;
+  	list-style-type: none !important;
+	line-height: 1em !important;
+
+
+
+}
+
+ul#tag-list li a {
+	font-size: 1em !important;
+}
+
+}
+
+
+
+/*# verdana, sans-serif;
+links 006FFA
+7B7C7C hover
+*/
+
+}
